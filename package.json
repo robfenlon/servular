@@ -1,0 +1,29 @@
+{
+  "name": "servular",
+  "version": "0.0.4",
+  "description": "A simple HTTP(S) server for single page apps",
+  "main": "servular.js",
+  "title": "servular",
+  "author": "Rob Fenlon",
+  "dependencies": {
+    "commander": "2.9.0",
+    "http": "0.0.0",
+    "mime-types": "2.1.14"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "server",
+    "http",
+    "https",
+    "single page",
+    "angular",
+    "html5",
+    "table"
+  ],
+  "repository": "https://github.com/robfenlon/servular.git",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "servular": "./servular.js"
+  }
+}
