@@ -25,7 +25,7 @@ Options
 
 `-p` or `--port [number]`: Specify a port (default: 443 with --ssl, otherwise 80)
 
-`-a` or `--address [IP/Name]`: Specify an address to use (default: 127.0.0.1)
+`-a` or `--address [IP/Name]`: Specify an address to use (default: 0.0.0.0)
 
 `-v` or `--verbose-output`: Output request info to the console
 

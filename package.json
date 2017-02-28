@@ -1,6 +1,6 @@
 {
   "name": "servular",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple HTTP(S) server for single page apps",
   "main": "servular.js",
   "title": "servular",
