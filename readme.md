@@ -6,6 +6,8 @@ at single page applications, it can serve up any site big or small.
 
 Usage
 -----
+To use, servular should be installed globally. It can then serve up any directory
+just by running servular in that directory.
 ```
 npm install -g servular
 servular [options]
