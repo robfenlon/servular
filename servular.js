@@ -15,7 +15,7 @@ args
    .option('-k, --key [file]', 'Path to key file [key.pem]', 'key.pem')
    .option('-c, --cert [file]', 'Path to cert file [cert.pem]', 'cert.pem')
    .option('-p, --port [number]', 'Specify a port [443 with --ssl, otherwise 80]')
-   .option('-a, --address [IP/Name]', 'Specify an address to use [127.0.0.1]', '127.0.0.1')
+   .option('-a, --address [IP/Name]', 'Specify an address to use [0.0.0.0]', '0.0.0.0')
    .option('-v, --verbose-output', 'Output request info to the console')
    .option('-d, --default [file]', 'If requested file cannot be resolved, serve the requested page instead [index.html]', 'index.html')
    .parse(process.argv);
